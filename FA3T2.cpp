@@ -74,7 +74,7 @@ bool decision(char alphabet,string word){
 }
 int main(){
     string name,word;//initialise var to store name and random word
-    char same,alph,chance;//initialise characters t0 store the sane alphabet,entered alphabet and the alphabet that is the same as the one in yor name
+    char same,alph,chance='!';//initialise characters t0 store the sane alphabet,entered alphabet and the alphabet that is the same as the one in yor name
     int mistakes =0;//initialise the number of mistakes the user makes
     word=lower(wordsamp());//word stores the random word in lower case
     cout<<"Enter Your Name : "; 
