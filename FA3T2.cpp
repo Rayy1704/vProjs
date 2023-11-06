@@ -104,6 +104,7 @@ int main(){
     }
     
     if (mistakes==6 && same!='*'){//hang man last chance
+    if (mistakes==6 && same!='*' && chance =='!'){//hang man last chance
         cout<<"You have hanged the man\n";
         cout<<"But you may try again\n";
         cout<<"If you guess correctly \n";
